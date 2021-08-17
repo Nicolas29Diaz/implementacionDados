@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="516.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="550.0" layoutY="423.0" onAction="#lanzar" text="Lanzar Dados" />
+      <ImageView fx:id="imageV1" fitHeight="265.0" fitWidth="293.0" layoutX="115.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Escritorio/Computación%20gráfica/Dados/1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imageV2" fitHeight="265.0" fitWidth="293.0" layoutX="404.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Escritorio/Computación%20gráfica/Dados/1.png" />
+         </image></ImageView>
+      <Label layoutX="165.0" layoutY="14.0" text="LANZAMIENTO DE DADOS">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="button1" layoutX="550.0" layoutY="377.0" onAction="#ultimo" prefHeight="31.0" prefWidth="186.0" text="Ultimo Lanzamiento" />
+      <Button fx:id="button2" layoutX="676.0" layoutY="423.0" onAction="#pararTodo" text="Parar" />
+      <TextField fx:id="textoBuscado" layoutX="237.0" layoutY="384.0" prefHeight="31.0" prefWidth="41.0" />
+      <Button fx:id="button11" layoutX="52.0" layoutY="384.0" onAction="#buscar" text="Buscar Número Repetido" />
+      <Button fx:id="button111" layoutX="52.0" layoutY="423.0" onAction="#buscarPar" prefHeight="31.0" prefWidth="186.0" text="Buscar Número Par" />
+      <TextField fx:id="textoPar" layoutX="237.0" layoutY="423.0" prefHeight="31.0" prefWidth="41.0" />
+      <Button fx:id="button3" layoutX="52.0" layoutY="464.0" onAction="#salir" text="Salir" />
+    </children>
+</AnchorPane>

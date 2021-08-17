@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="implementacionDados.jnlp">
+  <information>
+    <title>implementacionDados</title>
+    <vendor>nicolas_san.diaz</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="implementacionDados.jar" size="219881" download="eager" />
+    <jar href="lib\Dados.jar" size="7835" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="implementacionDados" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="vista.ImplementacionDados"  name="implementacionDados" />
+  <update check="always"/>
+</jnlp>
